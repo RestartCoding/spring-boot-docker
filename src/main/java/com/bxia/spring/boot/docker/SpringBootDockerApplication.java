@@ -17,4 +17,9 @@ public class SpringBootDockerApplication {
     public String home(){
         return "Hello Docker World.";
     }
+
+    @GetMapping
+    public String owner(){
+        return "Jack";
+    }
 }
