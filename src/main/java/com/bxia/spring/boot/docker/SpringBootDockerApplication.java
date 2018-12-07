@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author bxia
- * @date 2018-12-07
  */
 @SpringBootApplication
 @RestController
